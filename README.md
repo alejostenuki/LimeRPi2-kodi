@@ -23,10 +23,15 @@ mv jdk1.8.0_33/* /storage/java
 mkdir -p /storage/moonlight
 cd /storage/moonlight
 ```
+3b. Download moonlight and libopus and move them to /storage/moonlight/. 
+Files will be updated automatically with a script, but we need to download it manually first for the pairing.
+https://github.com/irtimmer/moonlight-embedded/releases/download/v1.2.2/limelight.jar
+https://github.com/irtimmer/moonlight-embedded/releases/download/v1.2.2/libopus.so
+
 
 4. Pair the pi with the computer. (substitute 192.168.0.150 with the IP of your desktop)
 ```
-/storage/java/bin/java -jar /storage/moonlight/moonlight.jar pair 192.168.0.150
+/storage/java/bin/java -jar /storage/moonlight/limelight.jar pair 192.168.0.150
 ```
 
 5. Run the following command to create the script to run moonlight in /storage/moonlight/moonlight.sh
