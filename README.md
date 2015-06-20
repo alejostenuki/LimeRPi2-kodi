@@ -26,7 +26,7 @@ cd /storage/moonlight
 
 4. Pair the pi with the computer. (substitute 192.168.0.150 with the IP of your desktop)
 ```
-/storage/java/bin/java -jar /storage/moonlight/moonlight.jar pair 192.168.0.150
+/storage/java/bin/java -jar /storage/moonlight/limelight.jar pair 192.168.0.150
 ```
 
 5. Run the following command to create the script to run moonlight in /storage/moonlight/moonlight.sh
